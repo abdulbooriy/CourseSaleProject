@@ -18,7 +18,7 @@ const Lessons = sequelize.define("Lessons", {
     },
 
     CourseID: {
-        type: DataTypes.NUMBER,
+        type: DataTypes.INTEGER,
         allowNull: false,
     },
 

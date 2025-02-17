@@ -20,12 +20,12 @@ const Comments = sequelize.define(
     },
 
     CourseID: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
 
     UsersID: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
   },

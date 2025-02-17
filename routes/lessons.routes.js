@@ -83,7 +83,7 @@ LessonsRoute.get("/:id", findOne);
  *                 example: "JavaScript Introduction"
  *               videoLink:
  *                 type: string
- *                 example: "https://example.com/video.mp4"
+ *                 example: "example"
  *               description:
  *                 type: string
  *                 example: "This is an introduction to JavaScript"
@@ -124,7 +124,7 @@ LessonsRoute.post("/", create);
  *                 example: "Updated JavaScript Basics"
  *               videoLink:
  *                 type: string
- *                 example: "https://example.com/new-video.mp4"
+ *                 example: "example"
  *               description:
  *                 type: string
  *                 example: "Updated description for JavaScript basics"
