@@ -3,7 +3,7 @@ import { courseCategoryValidation } from "../validations/courseCategory.validati
 
 async function getAll(req, res) {
     try {
-        let categories = await CourseCategory.findAll()
+        let categories = await CourseCategory.findAll();
         if (!categories) {
             res.status(400).send({ msg: "Not found!!!" })
         }
